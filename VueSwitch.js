@@ -19,6 +19,8 @@
     document.getElementById("switch-type").innerHTML = this.switch.type;
     document.getElementById("switch-forceAction").innerHTML = this.switch.forceAction;
     document.getElementById("switch-clickyOrNot").innerHTML = this.switch.clickyOrNot;
+    document.getElementById("switch-RGB-compatibility").innerHTML = this.switch.rgbCompatibility;
+    document.getElementById("switch-duree-de-vie").innerHTML = this.switch.dureeDeVie;
   }
   //{couleur:"", prix:"", distanceActivation:"", distanceMorte:"", distanceTotal:"", type:"", forceAction:"", marque:"",clickyOrNot:"", id:0}
 }

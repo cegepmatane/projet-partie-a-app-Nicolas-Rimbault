@@ -2,10 +2,10 @@
   constructor(window, vueListeSwitch, vueSwitch){
 
     this.window = window;
-    this.listeSwitch = [{couleur:"Bleu", prix:"0,71", distanceActivation:"2,2mm", distanceMorte:"1,8mm", distanceTotal:"4mm", type:"tactil", forceAction:"50g", marque:"HyperX",clickyOrNot:"clicky", id:0},
-                        {couleur:"Rouge", prix:"0,71", distanceActivation:"2mm", distanceMorte:"2mm", distanceTotal:"4mm", type:"lineaire", forceAction:"45g", marque:"HyperX",clickyOrNot:"Not", id:1},
-                        {couleur:"Noir", prix:"0,71", distanceActivation:"2mm", distanceMorte:"2mm", distanceTotal:"4mm", type:"lineaire", forceAction:"60g", marque:"Cherry MX",clickyOrNot:"Not", id:2},]
-                        //{couleur:"", prix:"", distanceActivation:"", distanceMorte:"", distanceTotal:"", type:"", forceAction:"", marque:"",clickyOrNot:"", id:0},
+    this.listeSwitch = [{couleur:"Bleu", prix:"0,71", distanceActivation:"2,2mm", distanceMorte:"1,8mm", distanceTotal:"4mm", type:"tactil", forceAction:"50g", marque:"HyperX",clickyOrNot:"clicky", rgbCompatibility:"Oui", dureeDeVie:"80 million", id:0},
+                        {couleur:"Rouge", prix:"0,71", distanceActivation:"2mm", distanceMorte:"2mm", distanceTotal:"4mm", type:"lineaire", forceAction:"45g", marque:"HyperX",clickyOrNot:"Not", rgbCompatibility:"Oui", dureeDeVie:"80 million", id:1},
+                        {couleur:"Noir", prix:"0,71", distanceActivation:"2mm", distanceMorte:"2mm", distanceTotal:"4mm", type:"lineaire", forceAction:"60g", marque:"Cherry MX",clickyOrNot:"Not", rgbCompatibility:"Oui", dureeDeVie:"100 million", id:2},]
+                        //{couleur:"", prix:"", distanceActivation:"", distanceMorte:"", distanceTotal:"", type:"", forceAction:"", marque:"",clickyOrNot:"", rgbCompatibility:"", dureeDeVie:"", id:0}
     this.vueListeSwitch = vueListeSwitch;
 
     this.vueSwitch = vueSwitch;
