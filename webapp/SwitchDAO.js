@@ -18,12 +18,13 @@ class SwitchDAO{
         for(let position in listeSwitchMemoire){
           let switch_ = new Switch(listeSwitchMemoire[position].couleur,
                                   listeSwitchMemoire[position].prix,
+                                  listeSwitchMemoire[position].distanceActivation,
                                   listeSwitchMemoire[position].distanceMorte,
                                   listeSwitchMemoire[position].distanceTotal,
                                   listeSwitchMemoire[position].type,
                                   listeSwitchMemoire[position].forceAction,
-                                  listeSwitchMemoire[position].clickyOrNot,
                                   listeSwitchMemoire[position].marque,
+                                  listeSwitchMemoire[position].clickyOrNot,
                                   listeSwitchMemoire[position].rgbCompatibility,
                                   listeSwitchMemoire[position].dureeDeVie,
                                   listeSwitchMemoire[position].id);
