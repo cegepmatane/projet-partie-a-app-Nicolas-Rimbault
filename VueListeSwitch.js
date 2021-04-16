@@ -19,7 +19,7 @@
       let listeSwitchItemHTMLRemplacement = listeSwitchItemHTML;
       listeSwitchItemHTMLRemplacement = listeSwitchItemHTMLRemplacement.replace("{Switch.id}",this.listeSwitchDonnee[numeroSwitch].id);
       listeSwitchItemHTMLRemplacement = listeSwitchItemHTMLRemplacement.replace("{Switch.couleur}",this.listeSwitchDonnee[numeroSwitch].couleur);
-      listeSwitchItemHTMLRemplacement = listeSwitchItemHTMLRemplacement.replace("{Switch.prix}",this.listeSwitchDonnee[numeroSwitch].prix);
+      listeSwitchItemHTMLRemplacement = listeSwitchItemHTMLRemplacement.replace("{Switch.marque}",this.listeSwitchDonnee[numeroSwitch].marque);
       listeSwitchHTMLRemplacement += listeSwitchItemHTMLRemplacement;
     }
 
