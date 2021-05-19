@@ -10,3 +10,7 @@ Nicolas Simon-Rimbault
 [Single page](http://51.222.141.149/projet-app-partie-a/SINGLE_PAGE_APPLICATION/)
 
 [Modele et DAO](http://51.222.141.149/projet-app-partie-a/MOD-et-DAO/)
+
+[Site app partie b](https://wiki.nicolas-serveur.ninja/)
+
+[Site formulaire](http://51.222.141.149/contact)
